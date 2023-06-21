@@ -36,7 +36,7 @@ list<req> RDes()
     return prs;
 }
 
-void updateR()
+void updateR() // заявки и поставки
 {
     list<req> reqs = RDes();
     list<req> reqs2;
