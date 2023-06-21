@@ -44,7 +44,7 @@ list<orders> ODes()
     return orderes2;
 }
 
-void updateO(string status)
+void updateO(string status) // изменение всех статусов
 {
     list<orders> listOrders = ODes();
     list<orders> listOrders2;
@@ -67,7 +67,7 @@ void updateO(string status)
     outfile << j.dump(4);
 }
 
-void updateO1(string status, int index)
+void updateO1(string status, int index) // изменение 1 статуса
 {
     list<orders> listOrders = ODes();
     list<orders> listOrders2;

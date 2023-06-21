@@ -140,7 +140,7 @@ void GViewM()
 			{
 				if (wh.quentity < quentity)
 				{
-					checkQuentity = false;
+					checkQuentity = false; // проверка на возможность заказа
 				}
 				check = true;
 			}
@@ -189,8 +189,8 @@ void giveOrder()
 void Waits() {
 	while (th)
 	{
-		this_thread::sleep_for(chrono::seconds(10)); // задержка на 3 секунды
-		cout << "заказ в статусе на кухне" << std::endl;
+		this_thread::sleep_for(chrono::seconds(10)); // задержка 
+		cout << "заказ в статусе на кухне" << std::endl; // ожидание пользователя
 	}
 	
 }

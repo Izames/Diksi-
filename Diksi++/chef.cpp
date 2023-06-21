@@ -92,7 +92,7 @@ void Cooking(int dish)
 					{
 						if (pr.name == ing)
 						{
-							while (CookNotSucceful)
+							while (CookNotSucceful) // валидаци€ айди
 							{
 								cout << "¬ведите - " << pr.id << endl;
 								cin >> ScookNum;

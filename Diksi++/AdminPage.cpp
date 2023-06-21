@@ -48,6 +48,7 @@ void StartPage()
 				WorkWithPR();
 				break;
 			case 4:
+				//вернуться назад
 				break;
 			default:
 				cout << "неверно введены данные" << endl;

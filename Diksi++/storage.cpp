@@ -35,7 +35,7 @@ list<WH> WHDes()
     return prs;
 }
 
-void updateWH(string pr, double cost, int quentity, bool plus)
+void updateWH(string pr, double cost, int quentity, bool plus) // в случае, если товар имеется, идет обращение к данной функции и ее изменение
 {
     list<WH> prs = WHDes();
     for (WH pro : prs)
